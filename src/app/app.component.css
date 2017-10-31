@@ -1,0 +1,43 @@
+
+#main{
+  background-image: url('../assets/back.jpg');
+  /*background-size: cover;*/
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+}
+h1{
+  color: white;
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 200;
+  background-color: black;
+}
+
+li a:hover {
+  background-color: #abf;
+}
+
+.active {
+  background-color: #4CAF50;
+}
